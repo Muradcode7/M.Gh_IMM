@@ -1,0 +1,220 @@
+*{
+    text-decoration: none !important ;
+    list-style: none;
+}
+
+header{
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: radial-gradient(#ffffff,#7c41c0 );
+}
+nav {
+    width: auto !important;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+    justify-content: space-between;
+    align-items: center  ;
+    padding-left:25px ;
+    padding-right:25px ;
+    margin-left: -25px;
+    margin-right: -25px;
+    min-width: 300px;
+    z-index:9999 ; 
+    background-color: #ffffff;
+
+
+
+}
+nav .logo a img {
+    width: 40px;
+    border-radius: 50%;
+}
+nav .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px;
+
+}
+nav ul {
+    display: flex;
+    margin-bottom:0 ;
+    position: relative;
+   
+}
+h1{
+    text-wrap:initial ;
+}
+
+nav ul li {
+    min-height: 24px ;
+    min-width: 90px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-right:3px solid rgb(133, 21, 225) ;
+    margin:0 ;
+    border-radius: 15px ;
+
+}
+nav ul li a {
+    min-height: 24px ;
+    min-width: 100px;
+    margin-right: 10px ;
+    position: relative;
+    color: rgb(10, 10, 10);
+    padding-left: 10px;
+} 
+nav ul li:hover{
+    background-color: #eee3ff;
+    transform: 9s ;
+
+}
+#home {
+    padding-top: 20% !important;
+    padding-bottom: 20% !important;
+}
+.col-6{
+    flex-basis:50% ;
+    min-width: 300px;
+    font-family: "Playwrite DE VA Guides", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.col-6 img{
+    max-width: 100% ;
+    padding: 50px 0;
+}
+.col-6 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn {
+    background-color: #60f7fc !important;
+    color: black !important ;
+    border:#60f7fc 1px solid !important;
+    border-radius:  17px !important;
+}
+.iconimg1{
+    background: radial-gradient(#fff,#ef0505 );
+    border-radius: 5px;
+}
+.iconimg2{
+    background: radial-gradient(#fff,#6aff00 );
+    border-radius: 5px;
+}
+.iconimg3{
+    background: radial-gradient(#fff,#fcf304 );
+    border-radius: 5px;
+}
+.card.icons {
+    border:none;
+}
+.card img.vendre{
+    height:230px ;
+}
+
+.purple{
+    color: #9c45ff;
+    font-size: 25px;
+}
+.purplel{
+    color: #9c45ff;
+    font-size: 17px;
+}
+
+
+
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 15px;
+  }
+  
+  .footer-section {
+    flex: 1 1 30%;
+    margin: 10px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .footer-section p,
+  .footer-section a,
+  .footer-section ul {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #aaa;
+  }
+  
+  .footer-section a {
+    text-decoration: none;
+    color: #1e90ff;
+  }
+  
+  .footer-section a:hover {
+    color: #ff7b54;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #aaa;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #1e90ff;
+  }
+  
+  .footer-section .socials a {
+    margin-right: 10px;
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  
+  .footer-section .socials a:hover {
+    color: #ff7b54;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #333;
+  }
+  
+  .footer-bottom p {
+    font-size: 12px;
+    color: #aaa;
+  }
+  
+  .footer-bottom a {
+    text-decoration: none;
+    color: #1e90ff;
+  }
+  
+  .footer-bottom a:hover {
+    color: #ff7b54;
+  }
+  
